@@ -1,0 +1,11 @@
+.book-appointment{
+    padding: 30px;
+    background-color: #f56f5d;
+    display: flex;
+}
+h2{
+    margin-left: 20%;
+}
+.btn{
+    margin-left: 5%;
+}

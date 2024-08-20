@@ -1,0 +1,57 @@
+header {
+  padding: 0px 50px;
+
+}
+
+.logo {
+  height: 40px;
+
+}
+
+.logo_container {
+  padding: 5px;
+
+}
+
+/* #f2442c  LOGO ICON COLOR*/
+.nav-link {
+  color: #eb5d4b;
+  font-weight: 600;
+
+
+}
+
+.btn-outline-primary {
+  color: #eb5d4b;
+  font-weight: 600;
+  border-color: #eb5d4b;
+}
+
+.btn-primary {
+  color: #eb5d4b;
+  font-weight: 600;
+  border-color: #eb5d4b;
+  background-color: white
+}
+
+.mb-4 {
+  margin-bottom: -0.1rem !important;
+  height: 100px;
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+
+}
+
+.dropdown-menu {
+  border: 0px;
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
