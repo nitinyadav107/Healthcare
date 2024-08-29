@@ -17,7 +17,7 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className="nav-link px-2" activeClassName="active">
+          <NavLink to="/specialiseddoctor" className="nav-link px-2" activeClassName="active">
             ABOUT US
           </NavLink>
         </li>

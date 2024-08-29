@@ -2,38 +2,30 @@ import './facilities.css';
 import insurance from '../assets/insurance.png';
 import diagnosis from '../assets/diagnosis.png';
 import delivery from '../assets/delivery.png';
+import { NavLink } from 'react-router-dom';
 
 function Facilities() {
   return (
-    <div className="container_box">
-      <div className="heading">Taking care of your health</div>
-      <div className="container text-center">
-        <div className="row align-items-center">
-          <div className="col">
-            <div className="icons">
-              <img className="icon_image" src={insurance} alt="insurance" />
-            </div>
-            <p className='icon_heading'>Specialist 
-            Doctors</p>
-            <p className='content'>we pride ourselves on offering a comprehensive range of specialized </p>
-            <span ><a className='read_more' href="#">Read More</a></span>
-          </div>
-          <div className="col">
-            <div className="icons">
-              <img className="icon_image" src={diagnosis} alt="diagnosis" />
-            </div>
-            <p className='icon_heading'>Diagnostic Services</p>
-            <p className='content'>we understand that accurate and timely diagnosis is the cornerstone of effective</p>
-            <span ><a className='read_more' href="#">Read More</a></span>
-          </div>
-          <div className="col">
-            <div className="icons">
-              <img className="icon_image" src={delivery} alt="delivery" />
-            </div>
-            <p className='icon_heading'>Medicine Delivery</p>
-            <p className='content'>we understand the importance of timely access to medications, especially when </p>
-            <span ><a className='read_more' href="#">Read More</a></span>
-          </div>
+    <div className="facilities-container">
+      <h2 className="heading">Taking care of your health</h2>
+      <div className="row text-center">
+        <div className="col facility">
+          <img className="icon-image" src={insurance} alt="insurance" />
+          <h3 className="icon-heading">Specialist Doctors</h3>
+          <p className="content">We pride ourselves on offering a comprehensive range of specialized services.</p>
+          <NavLink to="/specialiseddoctor" className="read-more">Read More</NavLink>
+        </div>
+        <div className="col facility">
+          <img className="icon-image" src={diagnosis} alt="diagnosis" />
+          <h3 className="icon-heading">Diagnostic Services</h3>
+          <p className="content">Accurate and timely diagnosis is the cornerstone of effective treatment.</p>
+          <NavLink to="/diagonisisservices" className="read-more">Read More</NavLink>
+        </div>
+        <div className="col facility">
+          <img className="icon-image" src={delivery} alt="delivery" />
+          <h3 className="icon-heading">Medicine Delivery</h3>
+          <p className="content">We understand the importance of timely access to medications.</p>
+          <NavLink to="/medicinedeliverysection" className="read-more">Read More</NavLink>
         </div>
       </div>
     </div>

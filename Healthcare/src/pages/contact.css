@@ -1,0 +1,41 @@
+.contact-container {
+    background-color: #f8f9fa;
+}
+
+.contact-info {
+    padding: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+
+}
+
+.color {
+    color: #3cdf99 text
+}
+
+.contact-text {
+    font-size: 1rem;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+/* .btn-primary {
+    background-color: #3cdf99;
+    border-color: #3cdf99;
+} */
+
+/* .btn-primary:hover {
+    background-color: #36b674;
+    border-color: #36b674;
+} */
